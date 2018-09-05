@@ -92,9 +92,17 @@ forced    gflux_kron_psfradius                forced     g_kronflux_psf_radius
 forced    gflux_kron_apcorr                   forced     g_kronflux_apcorr
 forced    gflux_kron_apcorr_err               forced     g_kronflux_apcorrsigma
 forced    gflux_kron_flags                    forced     g_kronflux_flag
-forced    gmag_kron                           forced     g_kronflux_flag_edge
-forced    gmag_kron                           forced     g_kronflux_flag_bad_shape_no_psf
-forced    gmag_kron                           forced     g_kronflux_flag_no_minimum_radius
+forced    gflux_kron_flags_edge               forced     g_kronflux_flag_edge
+forced    None                                forced     g_kronflux_flag_bad_shape_no_psf
+forced    None                                forced     g_kronflux_flag_no_minimum_radius
+forced    None                                forced     g_kronflux_flag_no_fallback_radius
+forced    gflux_kron_flags_radius             forced     g_kronflux_flag_bad_radius
+forced    gflux_kron_flags_usedminimumradius  forced     g_kronflux_flag_used_minimum_radius
+forced    gflux_kron_flags_usedpsfradius      forced     g_kronflux_flag_used_psf_radius
+forced    gflux_kron_flags_smallradius        forced     g_kronflux_flag_small_radius
+forced    gflux_kron_flags_badshape           forced     g_kronflux_flag_bad_shape
+forced    gflux_kron_flags_apcorr             forced     g_kronflux_flag_apcorr
+forced    None                                forced     g_kronflux_flag_badinitialcentroid
 
 #------------------------------------------------------------------------------
 
