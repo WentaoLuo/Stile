@@ -161,8 +161,9 @@ forced    gcmodel_dev_flux_flags                              forced     g_cmode
 forced    gcmodel_dev_flux_flags_badreference                 forced     g_cmodel_dev_flag_badreference
 forced    gcmodel_dev_flux_flags_numericerror                 forced     g_cmodel_dev_flag_numericerror
 forced    gcmodel_flux_flags                                  forced     g_cmodel_flag
-forced    gcmodel_flux_flags_region_maxarea                   forced     g_cmodel_flag_region_maxarea
-forced    gcmodel_flux_flags_region_maxbadpixelfraction       forced     g_cmodel_flag_region_maxbadpixelfraction
+forced    gcmodel_flags_region_maxarea                        forced     g_cmodel_flag_region_maxarea
+forced    gcmodel_flags_region_maxbadpixelfraction            forced     g_cmodel_flag_region_maxbadpixelfraction
+forced    gcmodel_flags_region_maxbadpixelfraction            forced     g_cmodel_flag_badreference
 
 
 #------------------------------------------------------------------------------
