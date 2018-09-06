@@ -170,7 +170,26 @@ forced    gcmodel_exp_flux_flags_apcorr                       forced     g_cmode
 forced    gcmodel_dev_flux_flags_apcorr                       forced     g_cmodel_dev_flag_apcorr
 forced    None                                                forced     g_cmodel_initial_flag_apcorr
 forced    gcmodel_flux_flags_apcorr                           forced     g_cmodel_flag_apcorr
-forced    
+forced    gmultishapelet_psf_ellipse_11                       forced     g_doubleshapeletpsfapprox_0_shape11
+forced    gmultishapelet_psf_ellipse_22                       forced     g_doubleshapeletpsfapprox_0_shape22
+forced    gmultishapelet_psf_ellipse_12                       forced     g_doubleshapeletpsfapprox_0_shape12
+forced    gcentroid_sdss_ra                                   forced     g_doubleshapeletpsfapprox_0_ra
+forced    gcentroid_sdss_dec                                  forced     g_doubleshapeletpsfapprox_0_dec
+forced    gmultishapelet_psf_inner0                           forced     g_doubleshapeletpsfapprox_0_0
+forced    gmultishapelet_psf_inner1                           forced     g_doubleshapeletpsfapprox_0_1
+forced    gmultishapelet_psf_inner2                           forced     g_doubleshapeletpsfapprox_0_2
+forced    gmultishapelet_psf_inner3                           forced     g_doubleshapeletpsfapprox_0_3
+forced    gmultishapelet_psf_inner4                           forced     g_doubleshapeletpsfapprox_0_4
+forced    gmultishapelet_psf_inner5                           forced     g_doubleshapeletpsfapprox_0_5
+forced    gshape_sdss_11                                      forced     g_doubleshapeletpsfapprox_1_shape11
+forced    gshape_sdss_22                                      forced     g_doubleshapeletpsfapprox_1_shape22
+forced    gshape_sdss_12                                      forced     g_doubleshapeletpsfapprox_1_shape12
+forced    gshape_sdss_centroid_ra                             forced     g_doubleshapeletpsfapprox_1_ra
+forced    gshape_sdss_centroid_dec                            forced     g_doubleshapeletpsfapprox_1_dec
+forced    gmultishapelet_psf_outer0                           forced     g_doubleshapeletpsfapprox_1_0
+forced    gmultishapelet_psf_outer1                           forced     g_doubleshapeletpsfapprox_1_1
+forced    gmultishapelet_psf_outer2                           forced     g_doubleshapeletpsfapprox_1_2
+
 #----------------------------------------MEAS-----------------------------------------------------
 
 
