@@ -1,5 +1,5 @@
 # cataname16    S16A                                 |      catname17    S17A or  Newer
-#------------------------------------------------------------------------------
+#------------------------------------------FORCED------------------------------------------------------------------
 forced    object_id                                           forced     object_id
 forced    ra                                                  forced     ra
 forced    dec                                                 forced     dec
@@ -58,18 +58,18 @@ forced    merge_measurement_n387                              forced     merge_m
 forced    merge_measurement_n515                              forced     merge_measurement_n515
 forced    None                                                forced     wl_fulldepth_fullcolor
 forced    None                                                forced     wl_fulldepth_fullcolor_cont
-meas      gclassification_extendedness                        forced     g_extendedness_value
-meas      None                                                forced     g_extendedness_flag
-meas      gflux_gaussian                                      forced     g_gaussianflux_flux
-meas      gmag_gaussian                                       forced     g_gaussianflux_mag
-meas      gflux_gaussian_err                                  forced     g_gaussianflux_fluxsigma
-meas      gmag_gaussian_err                                   forced     g_gaussianflux_magsigma
-meas      gflux_gaussian_apcorr                               forced     g_gaussianflux_apcorr
-meas      gflux_gaussian_apcorr_err                           forced     g_gaussianflux_apcorrsigma
-meas      gflux_gaussian_flags                                forced     g_gaussianflux_flag
-meas      gflux_gaussian_flags_apcorr                         forced     g_gaussianflux_flag_apcorr
-meas      None                                                forced     g_gaussianflux_flag_badcentroid
-meas      None                                                forced     g_gaussianflux_flag_badshape
+forced    None                                                forced     g_extendedness_value
+forced    None                                                forced     g_extendedness_flag
+forced    None                                                forced     g_gaussianflux_flux
+forced    None                                                forced     g_gaussianflux_mag
+forced    None                                                forced     g_gaussianflux_fluxsigma
+forced    None                                                forced     g_gaussianflux_magsigma
+forced    None                                                forced     g_gaussianflux_apcorr
+forced    None                                                forced     g_gaussianflux_apcorrsigma
+forced    None                                                forced     g_gaussianflux_flag
+forced    None                                                forced     g_gaussianflux_flag_apcorr
+forced    None                                                forced     g_gaussianflux_flag_badcentroid
+forced    None                                                forced     g_gaussianflux_flag_badshape
 forced    None                                                forced     g_pixelflags 
 forced    gflags_pixel_offimage                               forced     g_pixelflags_offimage
 forced    gflags_pixel_edge                                   forced     g_pixelflags_edge
@@ -163,9 +163,14 @@ forced    gcmodel_dev_flux_flags_numericerror                 forced     g_cmode
 forced    gcmodel_flux_flags                                  forced     g_cmodel_flag
 forced    gcmodel_flags_region_maxarea                        forced     g_cmodel_flag_region_maxarea
 forced    gcmodel_flags_region_maxbadpixelfraction            forced     g_cmodel_flag_region_maxbadpixelfraction
-forced    gcmodel_flags_region_maxbadpixelfraction            forced     g_cmodel_flag_badreference
-
-
-#------------------------------------------------------------------------------
+forced    gcmodel_flags_badreference                          forced     g_cmodel_flag_badreference
+forced    gcmodel_flags_nopsf                                 forced     g_cmodel_flag_noshapeletpsf
+forced    gcmodel_flags_badcentroid                           forced     g_cmodel_flag_badcentroid
+forced    gcmodel_exp_flux_flags_apcorr                       forced     g_cmodel_exp_flag_apcorr
+forced    gcmodel_dev_flux_flags_apcorr                       forced     g_cmodel_dev_flag_apcorr
+forced    None                                                forced     g_cmodel_initial_flag_apcorr
+forced    gcmodel_flux_flags_apcorr                           forced     g_cmodel_flag_apcorr
+forced    
+#----------------------------------------MEAS-----------------------------------------------------
 
 
