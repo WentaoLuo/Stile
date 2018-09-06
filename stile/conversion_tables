@@ -1,5 +1,6 @@
-# cataname16    S16A                                 |      catname17    S17A or  Newer
-#------------------------------------------FORCED------------------------------------------------------------------
+#####################################################################################################################
+# cataname16    S16A                                 ||      catname17    S17A or  Newer
+########################################### FORCED ##################################################################
 forced    object_id                                           forced     object_id
 forced    ra                                                  forced     ra
 forced    dec                                                 forced     dec
@@ -189,7 +190,19 @@ forced    gshape_sdss_centroid_dec                            forced     g_doubl
 forced    gmultishapelet_psf_outer0                           forced     g_doubleshapeletpsfapprox_1_0
 forced    gmultishapelet_psf_outer1                           forced     g_doubleshapeletpsfapprox_1_1
 forced    gmultishapelet_psf_outer2                           forced     g_doubleshapeletpsfapprox_1_2
+forced    gshape_sdss_flags                                   forced     g_doubleshapeletpsfapprox_flag
+forced    gshape_sdss_flags_psf                               forced     g_doubleshapeletpsfapprox_flag_invalidpointforpsf
+forced    gshape_sdss_flags_unweighted                        forced     g_doubleshapeletpsfapprox_flag_invalitmoments
+forced    gshape_sdss_flags_maxiter                           forced     g_doubleshapeletpsfapprox_flag_maxiterations
+forced    gshape_sdss_flags_centroid_flags                    forced     g_doubleshapeletpsfapprox_flagbadcentroid
+#-------------------------------------------NONEs for S18-------------------------------------------------------------
+forced    gshape_sdss_flags_unweightedbad                     forced     None
+forced    gmultishapelet_psf_flags                            forced     None
+forced    gmultishapelet_psf_flags_maxiter                    forced     None
+forced    gmultishapelet_psf_flags_tinystep                   forced     None
+forced    gmultishapelet_psf_flags_constrint_r                forced     None
+forced    gmultishapelet_psf_flags_constrint_q                forced     None
 
-#----------------------------------------MEAS-----------------------------------------------------
+############################################### MEAS ###################################################################
 
 
